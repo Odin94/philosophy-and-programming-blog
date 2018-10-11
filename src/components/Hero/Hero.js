@@ -15,7 +15,7 @@ const Hero = props => {
           and Programming <br/>
           with Odin
         </h1>
-        <p>Description-y stuff here (src/components/Hero/Hero.js)</p>
+        <p path-data="src/components/Hero/Hero.js"></p>
         <button onClick={scrollToContent} aria-label="scroll">
           <FaArrowDown />
         </button>
