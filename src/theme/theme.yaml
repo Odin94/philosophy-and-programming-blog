@@ -138,7 +138,7 @@ hero:
     lineHeight: *font-line-height-xs
   small:
     size: *font-size-xs
-  background: 'linear-gradient(0deg, #E0306E, #6438B5)'
+    background: "src/images/jpg/hero_background_hans_reniers.jpg"
 blog:
   h1:
     size: *font-size-l
