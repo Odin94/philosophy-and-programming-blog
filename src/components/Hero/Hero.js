@@ -11,8 +11,8 @@ const Hero = props => {
       <section className="hero">
         <small>Welcome to:</small>
         <h1>
-          Philosophy <br/>
-          and Programming <br/>
+          Philosophy <br />
+          and Programming <br />
           with Odin
         </h1>
         <p path-data="src/components/Hero/Hero.js"></p>
@@ -27,6 +27,7 @@ const Hero = props => {
           align-items: center;
           background: ${theme.hero.background};
           background-image: url(${backgrounds.mobile});
+          background-color: rgb(142, 152, 151);
           background-size: cover;
           color: ${theme.text.color.primary.inverse};
           display: flex;
@@ -36,6 +37,17 @@ const Hero = props => {
           height: 100px;
           padding: ${theme.space.inset.l};
           padding-top: ${theme.header.height.homepage};
+
+          animation: fadein-images 1s ease-out backwards, image-pulse 15s ease-in-out infinite alternate;
+        }
+
+        @keyframes fadein-images {
+          0% {
+            opacity: 0; 
+          }
+          100% {
+            opacity: 0.6; 
+          } 
         }
 
         h1 {
