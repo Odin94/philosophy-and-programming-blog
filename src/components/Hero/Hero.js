@@ -37,17 +37,6 @@ const Hero = props => {
           height: 100px;
           padding: ${theme.space.inset.l};
           padding-top: ${theme.header.height.homepage};
-
-          animation: fadein-images 1s ease-out backwards, image-pulse 15s ease-in-out infinite alternate;
-        }
-
-        @keyframes fadein-images {
-          0% {
-            opacity: 0; 
-          }
-          100% {
-            opacity: 0.6; 
-          } 
         }
 
         h1 {

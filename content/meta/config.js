@@ -2,13 +2,13 @@ module.exports = {
   siteTitle: "PhilosophyBlog - a Blog about Philosophy", // <title>
   shortSiteTitle: "PhilosophyBlog - a Blog about Philosophy", // <title> ending for posts and pages
   siteDescription: "PhilosophyBlog is a Blog about Philosophy.",
-  siteUrl: "https://google.com",
+  siteUrl: "odin-matthias.de",
   pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
   // author
   authorName: "andreas kammerloher",
-  authorTwitterAccount: "greglobinski",
+  authorTwitterAccount: "",
   // info
   headerTitle: "Hi, I'm Odin",
   headerSubTitle: "writing about philosophy & programming",
