@@ -2,7 +2,7 @@ module.exports = {
   siteTitle: "PhilosophyBlog - a Blog about Philosophy", // <title>
   shortSiteTitle: "PhilosophyBlog - a Blog about Philosophy", // <title> ending for posts and pages
   siteDescription: "PhilosophyBlog is a Blog about Philosophy.",
-  siteUrl: "odin-matthias.de",
+  siteUrl: "https://odin-matthias.de",
   pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
