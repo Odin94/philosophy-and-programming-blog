@@ -7,7 +7,7 @@ module.exports = {
   siteImage: "preview.jpg",
   siteLanguage: "en",
   // author
-  authorName: "andreas kammerloher",
+  authorName: "andreas odin kammerloher",
   authorTwitterAccount: "",
   // info
   headerTitle: "Hi, I'm Odin",
