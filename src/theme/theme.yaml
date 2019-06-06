@@ -54,14 +54,14 @@ color:
       k: '#2b2826'
     black: '#000000'
   brand:
-    primary: &color-brand-primary '#709425'
-    primaryActive: '#709425'
-    light: '#709425'
-    lightActive: '#709425'
-    dark: '#709425'
-    darkActive: '#709425'
+    primary: &color-brand-primary '#17a2b8'
+    primaryActive: '#17a2b8'
+    light: '#17a2b8'
+    lightActive: '#17a2b8'
+    dark: '#17a2b8'
+    darkActive: '#17a2b8'
   special:
-    attention: &color-special-attention orange
+    attention: &color-special-attention '#007bff'
 # FONT
 font:
   # font options
