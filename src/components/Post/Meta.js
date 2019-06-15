@@ -11,16 +11,15 @@ const Meta = props => {
 
   return (
     <p className="meta">
-      <span>
-        <FaCalendar size={18} /> {prefix}
+      <span className="small">
+        {prefix}
       </span>
-      <span>
+      {/* <span className="small">
         <FaUser size={18} /> {authorName}
-      </span>
+      </span> */}
       {category && (
-        <span>
-          <FaTag size={18} />
-          <Link to={`/category/${category}`}>{category}</Link>
+        <span className="category">
+          <Link style={{ color: `${theme.color.brand.primary}` }} className="categoryLink" to={`/category/${category}`}>{category}</Link>
         </span>
       )}
 
@@ -28,7 +27,7 @@ const Meta = props => {
       <style jsx>{`
         .meta {
           display: flex;
-          flex-flow: row wrap;
+          justify-content: space-between;
           font-size: 0.8em;
           margin: ${theme.space.m} 0;
           background: transparent;
@@ -37,13 +36,22 @@ const Meta = props => {
             fill: ${theme.icon.color};
             margin: ${theme.space.inline.xs};
           }
+
+          .small {
+            color: rgba(0,0,0,.54);
+          }
+
+          .category {
+            align-self: flex-end;
+          }
+
           span {
-            align-items: center;
             display: flex;
             text-transform: uppercase;
             margin: ${theme.space.xs} ${theme.space.s} ${theme.space.xs} 0;
           }
         }
+
         @from-width tablet {
           .meta {
             margin: ${`calc(${theme.space.m} * 1.5) 0 ${theme.space.m}`};
