@@ -1,5 +1,6 @@
 ---
 title: Impressum
+template: "page"
 menuTitle: Impressum
 ---
 
