@@ -4,7 +4,7 @@ import { useSiteMetadata } from "@/hooks";
 
 import { Author } from "./Author";
 import { Contacts } from "./Contacts";
-import { Copyright } from "./Copyright";
+import { Impressum } from "./Impressum";
 import { Menu } from "./Menu";
 
 import * as styles from "./Sidebar.module.scss";
@@ -14,7 +14,7 @@ type Props = {
 };
 
 const Sidebar = ({ isIndex }: Props) => {
-  const { author, copyright, menu } = useSiteMetadata();
+  const { author, menu } = useSiteMetadata();
 
   return (
     <div className={styles.sidebar}>
@@ -22,7 +22,7 @@ const Sidebar = ({ isIndex }: Props) => {
         <Author author={author} isIndex={isIndex} />
         <Menu menu={menu} />
         <Contacts contacts={author.contacts} />
-        <Copyright copyright={copyright} />
+        <Impressum />
       </div>
     </div>
   );

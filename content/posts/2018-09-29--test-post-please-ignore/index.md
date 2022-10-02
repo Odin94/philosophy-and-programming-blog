@@ -1,8 +1,16 @@
 ---
 title: test post please ignore
+draft: false
+date: "2022-08-19T22:40:32.169Z"
+template: "post"
+slug: "humane-typography-in-the-digital-age"
 category: "coffee"
-cover: nathan-dumlao-coffee-unsplash.jpg
-author: andreas odin kammerloher
+socialImage: nathan-dumlao-coffee-unsplash.jpg
+tags:
+  - "Design"
+  - "Typography"
+  - "Web Development"
+description: "This is but a test post"
 ---
 
 Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [adipiscing](http://google.com) eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:

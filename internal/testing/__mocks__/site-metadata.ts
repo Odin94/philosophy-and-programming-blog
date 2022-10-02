@@ -4,11 +4,10 @@ import menu from "./menu";
 export default {
   site: {
     siteMetadata: {
-      url: "https://www.lumen.local",
-      title: "Blog by John Doe",
+      url: "https://odin-matthias.de",
+      title: "Blog by Odin",
       subtitle:
-        "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
-      copyright: "All rights reserved.",
+        "Changed subtitle",
       postsPerPage: 4,
       author,
       menu,

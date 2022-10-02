@@ -11,7 +11,6 @@ export default {
     title: config.title,
     author: config.author,
     subtitle: config.subtitle,
-    copyright: config.copyright,
     postsLimit: config.postsLimit,
     disqusShortname: config.disqusShortname,
   },

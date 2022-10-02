@@ -1,8 +1,7 @@
 {
-  "title": "Blog by John Doe",
-  "url": "https://lumen.alxshelepenok.com",
-  "subtitle": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
-  "copyright": "© All rights reserved.",
+  "title": "Odin's Blog",
+  "url": "https://odin-matthias.de",
+  "subtitle": "",
   "googleAnalyticsId": "UA-73379983-2",
   "disqusShortname": "",
   "postsLimit": 4,
@@ -15,32 +14,14 @@
     {
       "label": "About me",
       "path": "/pages/about"
-    },
-    {
-      "label": "Contact me",
-      "path": "/pages/contacts"
     }
   ],
   "author": {
-    "name": "John Doe",
+    "name": "Odin",
     "photo": "/photo.jpg",
-    "bio": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "bio": "Writing about programming and anything else that inspires me",
     "contacts": {
-      "rss": "",
-      "email": "",
-      "github": "#",
-      "facebook": "#",
-      "telegram": "#",
-      "twitter": "#",
-      "linkedin": "#",
-      "instagram": "#",
-      "line": "",
-      "weibo": "",
-      "gitlab": "",
-      "medium": "",
-      "youtube": "",
-      "codepen": "",
-      "soundcloud": ""
+      "github": "Odin94"
     }
   }
 }
