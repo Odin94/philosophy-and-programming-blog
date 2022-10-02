@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-lumen",
+  "name": "odins_blog",
   "version": "1.1.411",
-  "description": "A constantly evolving and thoughtful architecture for creating static blogs with Gatsby",
+  "description": "",
   "keywords": [
     "gatsby",
     "graphql",
@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alxshelepenok/gatsby-starter-lumen.git"
+    "url": "https://github.com/Odin94/philosophy-and-programming-blog"
   },
   "license": "MIT",
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "author": "Odin Kammerloher",
   "scripts": {
     "build": "npm run clean && gatsby build",
     "clean": "rimraf .cache public",
