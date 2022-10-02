@@ -4,7 +4,6 @@ import { Link } from "gatsby";
 
 import type { Node } from "@/types";
 
-import { Author } from "./Author";
 import { Comments } from "./Comments";
 import { Content } from "./Content";
 import { Meta } from "./Meta";
@@ -34,7 +33,6 @@ const Post: React.FC<Props> = ({ post }: Props) => {
       <div className={styles.footer}>
         <Meta date={date} />
         {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
-        <Author />
       </div>
 
       <div className={styles.comments}>
