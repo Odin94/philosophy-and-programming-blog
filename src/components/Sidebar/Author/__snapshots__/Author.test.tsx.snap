@@ -9,11 +9,11 @@ exports[`Author renders correctly 1`] = `
     <a
       href="/"
     >
-      John Doe
+      Odin
     </a>
   </h2>
   <p>
-    Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.
+    test
   </p>
 </div>
 `;

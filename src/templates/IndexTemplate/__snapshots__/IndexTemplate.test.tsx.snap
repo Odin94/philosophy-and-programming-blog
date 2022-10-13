@@ -12,11 +12,11 @@ exports[`IndexTemplate renders correctly 1`] = `
           <a
             href="/"
           >
-            John Doe
+            Odin
           </a>
         </h1>
         <p>
-          Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.
+          test
         </p>
       </div>
       <nav>
@@ -66,7 +66,7 @@ exports[`IndexTemplate renders correctly 1`] = `
           </li>
           <li>
             <a
-              href="mailto:#"
+              href="#"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -102,7 +102,7 @@ exports[`IndexTemplate renders correctly 1`] = `
           </li>
           <li>
             <a
-              href="https://www.twitter.com/#"
+              href="#"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -120,7 +120,7 @@ exports[`IndexTemplate renders correctly 1`] = `
           </li>
           <li>
             <a
-              href="https://t.me/#"
+              href="#"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -138,9 +138,11 @@ exports[`IndexTemplate renders correctly 1`] = `
           </li>
         </ul>
       </div>
-      <div>
-        All rights reserved.
-      </div>
+      <a
+        href="/pages/impressum"
+      >
+        Impressum
+      </a>
     </div>
   </div>
   <div>
