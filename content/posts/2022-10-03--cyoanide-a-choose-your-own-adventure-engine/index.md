@@ -79,9 +79,12 @@ Second, these are the features and how I built them:
 {!getLevelState().includes("investigate-bunker") ? <Link to="../investigate-bunker">{"> Investigate the bunker"}</Link> : null }
 ```
 
+**Loading games:** When the player navigates to `/game`, the Cyoanide checks local storage for a saved game state. If one exists a modal opens and lets the user choose to load their game or delete save state. Loading a game just navigates to the latest `slug` stored in the state. On top of allowing players to pick up where they left off, this system also aims to prevent corrupted save states from players playing several games at the same time and having their game state contain mixed `slugs` from those different games.
+
 **Playing music:** You can add a path to a music file to your Markdown page's `frontmatter` like `music: "./scary-forest-90162.mp3"` and it will be played in a loop while the player is on that page. If no music is set on a page, all music will be stopped. If the next page has the same music set, the music will continue playing rather than restart. I'm using the [Howler.js](https://howlerjs.com) library for playing music which comes with a global object that contains all playing audio across pages, which makes it easy to compare currently playing audio sources from different pages.
 
 **Showing game entry points:** Currently, a hosted instance of Cyoanide supports multiple games/stories, which can be selected on the `/game` page. Entrypoints to a story are functionally the same as any other page in a story, but to let Cyoanide identify which one is an entrypoint, the `/game` page filters by Markdown pages which contain `story_start: true` in their `frontmatter`.
+
 
 ## What got in my way
 
