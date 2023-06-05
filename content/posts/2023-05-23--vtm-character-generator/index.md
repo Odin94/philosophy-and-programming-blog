@@ -1,5 +1,5 @@
 ---
-title: "'Vampire: The Masquerade' v5 Character Creator"
+title: "Progeny - 'Vampire: The Masquerade' v5 Character Creator"
 draft: false
 date: "2023-05-23T16:00:32.169Z"
 template: "post"
@@ -16,7 +16,7 @@ description: "I built a character creator for Vampire: The Masquerade v5. This i
 
 [Creator Github repository](https://github.com/Odin94/Vampire-v5-character-generator)
 
-[Creator Website](https://v5-creator.odin-matthias.de)
+[Creator Website](https://progeny.odin-matthias.de)
 
 
 Article not (yet?) written
