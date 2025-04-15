@@ -7,14 +7,14 @@ menuTitle: Impressum
 (Required by German law)
 
 <p>Angaben gemäß § 5 Telemediengesetz (TMG):</p>
-<p>Andreas Kammerloher<br />
+<p>Odin Kammerloher<br />
 Siedlerstraße 7a<br />
 85774 Unterföhring<br />
 Deutschland</p>
 <p>Kontakt:</p>
-E-Mail: oceanstringman@gmail.com</p>
+E-Mail: elmonoxo (at) tutamail (punkt) com</p>
 <p>Verantwortlicher für den Inhalt ist gemäß § 55 Abs. 2 Rundfunkstaatsvertrag (RStV):</p>
-<p>Andreas Kammerloher<br />
+<p>Odin Kammerloher<br />
 <h3>Ausschluss der Haftung:</h3>
 <h4>Haftung für Inhalte</h4>
 Alle Inhalte unseres Internetauftritts wurden mit größter Sorgfalt und nach bestem Gewissen erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt.<br />
