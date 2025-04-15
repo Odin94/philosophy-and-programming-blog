@@ -35,6 +35,9 @@ const Author = ({ author, isIndex }: Props) => (
       </h2>
     )}
     <p className={styles.subtitle}>{author.bio}</p>
+    <p className={styles.subtitle}>
+      <a href="https://ko-fi.com/odin_dev">Support Me! ☕</a>
+    </p>
   </div>
 );
 
